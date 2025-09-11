@@ -1,4 +1,4 @@
-.body{
+.body {
   padding: 0 20px;
 }
 .header {
@@ -51,34 +51,34 @@
 
 .cover {
             position: relative;
-            padding: 165px 0 50px;
-            background-image: url(../images/cover.jpg);
-            background-size: cover;
-            background-position: center;
-            min-height: 757px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            min-height: 757px;
+            padding: 165px 0 50px;
+            background-image: url(../images/cover.jpg);
+            background-position: center;
+            background-size: cover;
         }
         
         .overlay {
             position: absolute;
             inset: 0;
-            background-color: rgba(0, 0, 0, 0.6);
             z-index: 1;
             line-height: 1.15;
             word-spacing: 30px;
+            background-color: rgba(0, 0, 0, 0.6);
         }
         
 
 .cover__title {
     position: relative;
+    z-index: 1;
     margin-bottom: 135px;
     color: #fff;
-    font-size: 80px;
     font-weight: bold;
+    font-size: 80px;
     text-transform: uppercase;
-    z-index: 1;
 }
 
 .aligned-text {
@@ -88,35 +88,35 @@
 }
 
 .aligned-text_left {
-    text-align: left;
      padding-left: 5%;
+    text-align: left;
 }
 
 .aligned-text_center {
-    text-align: center;
     margin: 0.5em 0;
+    text-align: center;
 }
 
 .aligned-text_right {
-    text-align: right;
     padding-right: 5%;
+    text-align: right;
 }
 
 .cover__description {
     position: relative;
+    z-index: 1;
     display: flex;
     justify-content: start;
     align-items: center;
     gap: 40px;
-    z-index: 1;
     padding-left: 80px;
 }
 
 .cover__description-text {
+    color:white;
     font-size: 22px;
     text-transform: uppercase;
     word-spacing: 18px;
-    color:white;
 }
 
 .bet-button {
@@ -171,9 +171,9 @@
     justify-content: space-between;
     height: 100%;
     padding: 30px 20px;
-    background-size: cover;
-    background-position: center;
     color: white;
+    background-position: center;
+    background-size: cover;
 }
 
 .card_type_film {
@@ -190,16 +190,16 @@
 
 .card__title {
     position: relative;
-    font-size: 22px;
-    text-transform: uppercase;
-    text-decoration: underline;
     z-index: 1;
+    font-size: 22px;
+    text-decoration: underline;
+    text-transform: uppercase;
 }
 
 .card__text {
     position: relative;
-    font-size: 20px;
     z-index: 1;
+    font-size: 20px;
 }
 
 .lots__look-more-link {
@@ -267,8 +267,8 @@
 }
 
 .footer__menu-list {
-    list-style: none;
     text-align: center;
+    list-style: none;
 }
 
 .footer__menu-list-item {
