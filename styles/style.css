@@ -270,7 +270,7 @@
 .footer {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
-    padding: 60px 0;
+    padding: 60px 10;
 }
 
 .footer__address {
@@ -278,6 +278,7 @@
     font-style: normal;
     line-height: 1.35;
     padding-left: 55px;
+    grid-column-start: 1;
     
 }
 
@@ -302,9 +303,10 @@
 
 .footer__social-list {
     display: flex;
-    justify-self: end;
+    justify-self:end;
     gap: 48px;
     list-style: none;
+    padding-right: 43px;
 }
 
 .footer__social-link {
