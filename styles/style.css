@@ -164,8 +164,9 @@
 .lots__card-list {
     display: flex;
     padding: 0 24px;
-    gap: 25px;
+    gap: 20px;
     margin-bottom: 30px;
+    height: 596px;
   
 }
 
@@ -190,7 +191,7 @@
     height: 100%;
     padding: 48px 40px;
     color: white;
-    gap: 35px;
+    gap: 30px;
     background-position: center;
     background-size: cover;
 }
@@ -283,6 +284,7 @@
     max-width: 260px;
     width: 100%;
     grid-column-start: 1;
+    line-height: 1.4;
     
 }
 
