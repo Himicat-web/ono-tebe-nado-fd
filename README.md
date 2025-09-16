@@ -1,1 +1,1 @@
-https://github.com/Himicat-web/ono-tebe-nado
+https://github.com/Himicat-web/ono-tebe-nado-fd
