@@ -269,7 +269,7 @@
     flex-direction: column;
     gap: 25px;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 24px;
 
 }
 
@@ -280,10 +280,8 @@
 }
 
 .footer__address {
-    max-width: 240px;
-    font-style: normal;
-    line-height: 1.35;
-    padding-left: 55px;
+    max-width: 260px;
+    width: 100%;
     grid-column-start: 1;
     
 }
